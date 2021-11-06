@@ -4,15 +4,12 @@ import { NavBar } from 'app/components/NavBar';
 import { Features } from './Features';
 import { PageWrapper } from 'app/components/PageWrapper';
 
-export function HomePage() {
+export function SupportPage() {
   return (
     <>
       <Helmet>
-        <title>Home Page</title>
-        <meta
-          name="description"
-          content="A React Boilerplate application homepage"
-        />
+        <title>Support</title>
+        <meta name="description" content="Support pages for Tiny Owl Games" />
       </Helmet>
       <NavBar />
       <PageWrapper>

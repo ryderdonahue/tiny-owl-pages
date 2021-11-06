@@ -1,29 +1,22 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
+import logoImg from '../../assets/tiny-owl.png';
 
 export function Logo() {
   return (
-    <Wrapper>
-      <Title>React Boilerplate</Title>
-      <Description>Create React App Template</Description>
+    <Wrapper href={'/'}>
+      <Image alt={'Tiny Owl Games Logo'} src={logoImg} />
     </Wrapper>
   );
 }
 
-const Wrapper = styled.div`
+const Wrapper = styled.a`
   display: flex;
   align-items: center;
 `;
 
-const Title = styled.div`
-  font-size: 1.25rem;
-  color: ${p => p.theme.text};
-  font-weight: bold;
-  margin-right: 1rem;
-`;
-
-const Description = styled.div`
-  font-size: 0.875rem;
-  color: ${p => p.theme.textSecondary};
-  font-weight: normal;
+const Image = styled.img`
+  height: 72px;
+  margin-top: 12px;
+  pointer-events: none;
 `;

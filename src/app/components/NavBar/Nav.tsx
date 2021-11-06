@@ -6,14 +6,9 @@ import { ReactComponent as GithubIcon } from './assets/github-icon.svg';
 export function Nav() {
   return (
     <Wrapper>
-      <Item
-        href="https://cansahin.gitbook.io/react-boilerplate-cra-template/"
-        target="_blank"
-        title="Documentation Page"
-        rel="noopener noreferrer"
-      >
+      <Item href="/support" title="Support" rel="noopener noreferrer">
         <DocumentationIcon />
-        Documentation
+        Support
       </Item>
       <Item
         href="https://github.com/react-boilerplate/react-boilerplate-cra-template"

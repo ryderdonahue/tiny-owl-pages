@@ -1,6 +1,5 @@
 import blockbaneLogo from 'app/assets/blockbane.png';
 import * as React from 'react';
-import { useTranslation } from 'react-i18next';
 import styled from 'styled-components/macro';
 import { Lead } from '../components/Lead';
 import { P } from '../components/P';
@@ -8,11 +7,9 @@ import { SubTitle } from '../components/SubTitle';
 import { Title } from '../components/Title';
 
 export function Features() {
-  const { t } = useTranslation();
-
   return (
     <>
-      <Title as="h2">Features</Title>
+      <Title as="h2">Support</Title>
       <Lead>
         <strong>A Solo Developer Opertation</strong> passionate about building
         entertaining games
@@ -46,7 +43,19 @@ export function Features() {
               debug. Type any github username below and see it in action with
               Redux Dev Tools. */}
             </P>
-            <P>App store links coming soon</P>
+            <P>
+              <strong>Need help?</strong>{' '}
+              <Link
+                href={
+                  'mailto:tinyowlgamescontact@gmail.com?subject=Blockbane%20Support'
+                }
+              >
+                Contact support via email
+              </Link>
+              <Link href={'https://discord.gg/RSvUKUD'}>
+                Or get in touch on Discord!
+              </Link>
+            </P>
           </Content>
         </Feature>
       </List>
@@ -78,4 +87,27 @@ const AppIcon = styled.img`
   width: 92px;
   height: 92px;
   margin: 24px;
+`;
+
+const Link = styled.a`
+  color: ${p => p.theme.primary};
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  align-items: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
+
+  .icon {
+    margin-right: 0.25rem;
+  }
 `;
