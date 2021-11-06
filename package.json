@@ -80,7 +80,7 @@
     "prettify": "prettier --write",
     "extract-messages": "i18next-scanner --config=internals/extractMessages/i18next-scanner.config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -dir /build"
   },
   "eslintConfig": {
     "extends": "react-app"
