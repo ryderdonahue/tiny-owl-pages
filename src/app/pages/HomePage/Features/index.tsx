@@ -1,6 +1,4 @@
 import blockbaneLogo from 'app/assets/blockbane.png';
-import * as React from 'react';
-import { useTranslation } from 'react-i18next';
 import styled from 'styled-components/macro';
 import { Lead } from '../components/Lead';
 import { P } from '../components/P';
@@ -8,8 +6,6 @@ import { SubTitle } from '../components/SubTitle';
 import { Title } from '../components/Title';
 
 export function Features() {
-  const { t } = useTranslation();
-
   return (
     <>
       <Title as="h2">Features</Title>

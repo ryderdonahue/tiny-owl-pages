@@ -1,23 +1,14 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components/macro';
 import { ReactComponent as DocumentationIcon } from './assets/documentation-icon.svg';
-import { ReactComponent as GithubIcon } from './assets/github-icon.svg';
 
 export function Nav() {
   return (
     <Wrapper>
-      <Item href="/support" title="Support" rel="noopener noreferrer">
+      <Item to="/support" title="Support" rel="noopener noreferrer">
         <DocumentationIcon />
         Support
-      </Item>
-      <Item
-        href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
-        target="_blank"
-        title="Github Page"
-        rel="noopener noreferrer"
-      >
-        <GithubIcon />
-        Github
       </Item>
     </Wrapper>
   );
@@ -28,7 +19,7 @@ const Wrapper = styled.nav`
   margin-right: -1rem;
 `;
 
-const Item = styled.a`
+const Item = styled(Link)`
   color: ${p => p.theme.primary};
   cursor: pointer;
   text-decoration: none;

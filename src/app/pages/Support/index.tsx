@@ -11,7 +11,6 @@ export function SupportPage() {
         <title>Support</title>
         <meta name="description" content="Support pages for Tiny Owl Games" />
       </Helmet>
-      <NavBar />
       <PageWrapper>
         <Features />
       </PageWrapper>
