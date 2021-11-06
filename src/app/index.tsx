@@ -7,13 +7,12 @@
  */
 
 import { Helmet } from 'react-helmet-async';
-import { Switch, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import { HashRouter as Router } from 'react-router-dom';
 
 import { GlobalStyle } from '../styles/global-styles';
 
 import { HomePage } from './pages/HomePage/Loadable';
-import { NotFoundPage } from './pages/NotFoundPage/Loadable';
 import { SupportPage } from './pages/Support';
 import styled from 'styled-components';
 import { NavBar } from './components/NavBar';

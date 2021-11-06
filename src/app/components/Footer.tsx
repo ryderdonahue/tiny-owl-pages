@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { ReactComponent as GithubIcon } from 'app/assets/github-icon.svg';
-import { Link } from 'react-router-dom';
 import React from 'react';
 
 export const Footer = () => {
@@ -14,6 +13,7 @@ export const Footer = () => {
         <GithubIcon />
         Github
       </Item>
+      Copyright 2021 - Ryder Donahue
     </Content>
   );
 };
@@ -47,9 +47,12 @@ const Content = styled.div`
   color: ${p => p.theme.text};
   display: flex;
   justify-content: center;
-  position: fixed;
+  flex-direction: column;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
+  height 0px;
+  position: absolute;
+  height: 0px; /* Height of the footer */
 `;
