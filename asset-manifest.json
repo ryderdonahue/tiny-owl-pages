@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/tiny-owl-pages/static/js/main.be54c528.chunk.js",
-    "runtime-main.js": "/tiny-owl-pages/static/js/runtime-main.a3d8b54a.js",
+    "main.js": "/tiny-owl-pages/static/js/main.4e805170.chunk.js",
+    "runtime-main.js": "/tiny-owl-pages/static/js/runtime-main.49f0dd8f.js",
     "static/css/2.e6924ae7.chunk.css": "/tiny-owl-pages/static/css/2.e6924ae7.chunk.css",
-    "static/js/2.cd36db51.chunk.js": "/tiny-owl-pages/static/js/2.cd36db51.chunk.js",
+    "static/js/2.51625804.chunk.js": "/tiny-owl-pages/static/js/2.51625804.chunk.js",
     "static/js/3.b40f67ca.chunk.js": "/tiny-owl-pages/static/js/3.b40f67ca.chunk.js",
-    "static/js/4.827e5c60.chunk.js": "/tiny-owl-pages/static/js/4.827e5c60.chunk.js",
+    "static/js/4.2ccd8429.chunk.js": "/tiny-owl-pages/static/js/4.2ccd8429.chunk.js",
     "static/js/5.627d9a38.chunk.js": "/tiny-owl-pages/static/js/5.627d9a38.chunk.js",
     "index.html": "/tiny-owl-pages/index.html",
-    "static/js/2.cd36db51.chunk.js.LICENSE.txt": "/tiny-owl-pages/static/js/2.cd36db51.chunk.js.LICENSE.txt",
+    "static/js/2.51625804.chunk.js.LICENSE.txt": "/tiny-owl-pages/static/js/2.51625804.chunk.js.LICENSE.txt",
     "static/media/blockbane.png": "/tiny-owl-pages/static/media/blockbane.ef17edcc.png",
     "static/media/documentation-icon.29cd96c7.svg": "/tiny-owl-pages/static/media/documentation-icon.29cd96c7.svg",
     "static/media/github-icon.cc72f095.svg": "/tiny-owl-pages/static/media/github-icon.cc72f095.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3d8b54a.js",
+    "static/js/runtime-main.49f0dd8f.js",
     "static/css/2.e6924ae7.chunk.css",
-    "static/js/2.cd36db51.chunk.js",
-    "static/js/main.be54c528.chunk.js"
+    "static/js/2.51625804.chunk.js",
+    "static/js/main.4e805170.chunk.js"
   ]
 }
