@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.js": "/tiny-owl-pages/static/js/main.9a7169b5.chunk.js",
-    "runtime-main.js": "/tiny-owl-pages/static/js/runtime-main.892581a0.js",
+    "main.js": "/tiny-owl-pages/static/js/main.9c568f10.chunk.js",
+    "runtime-main.js": "/tiny-owl-pages/static/js/runtime-main.3a558c3b.js",
     "static/css/2.e6924ae7.chunk.css": "/tiny-owl-pages/static/css/2.e6924ae7.chunk.css",
     "static/js/2.484a8293.chunk.js": "/tiny-owl-pages/static/js/2.484a8293.chunk.js",
-    "static/js/3.f214132b.chunk.js": "/tiny-owl-pages/static/js/3.f214132b.chunk.js",
+    "static/js/3.3b658404.chunk.js": "/tiny-owl-pages/static/js/3.3b658404.chunk.js",
     "static/js/4.71edabee.chunk.js": "/tiny-owl-pages/static/js/4.71edabee.chunk.js",
     "index.html": "/tiny-owl-pages/index.html",
     "static/js/2.484a8293.chunk.js.LICENSE.txt": "/tiny-owl-pages/static/js/2.484a8293.chunk.js.LICENSE.txt",
+    "static/media/app-store.a350b20c.png": "/tiny-owl-pages/static/media/app-store.a350b20c.png",
     "static/media/blockbane.png": "/tiny-owl-pages/static/media/blockbane.d888efce.png",
     "static/media/documentation-icon.29cd96c7.svg": "/tiny-owl-pages/static/media/documentation-icon.29cd96c7.svg",
-    "static/media/github-icon.cc72f095.svg": "/tiny-owl-pages/static/media/github-icon.cc72f095.svg"
+    "static/media/github-icon.cc72f095.svg": "/tiny-owl-pages/static/media/github-icon.cc72f095.svg",
+    "static/media/google-play.f350be6b.png": "/tiny-owl-pages/static/media/google-play.f350be6b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.892581a0.js",
+    "static/js/runtime-main.3a558c3b.js",
     "static/css/2.e6924ae7.chunk.css",
     "static/js/2.484a8293.chunk.js",
-    "static/js/main.9a7169b5.chunk.js"
+    "static/js/main.9c568f10.chunk.js"
   ]
 }
