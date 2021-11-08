@@ -1,7 +1,6 @@
 import blockbaneLogo from 'app/assets/blockbane.png';
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { Lead } from '../components/Lead';
 import { P } from '../components/P';
 import { SubTitle } from '../components/SubTitle';
 import { Title } from '../components/Title';
@@ -63,6 +62,7 @@ const AppIcon = styled.img`
   width: 92px;
   height: 92px;
   margin-right: 24px;
+  pointer-events: none;
 `;
 
 const Link = styled.a`

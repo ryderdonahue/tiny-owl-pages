@@ -1,4 +1,6 @@
 import blockbaneLogo from 'app/assets/blockbane.png';
+import AppStoreLogo from 'app/assets/app-store.png';
+import GoogleStoreLogo from 'app/assets/google-play.png';
 import styled from 'styled-components/macro';
 import { Lead } from '../components/Lead';
 import { P } from '../components/P';
@@ -23,7 +25,22 @@ export function Features() {
               users place puzzle pieces at their own pace to make square matches
               to keep the board clear.
             </P>
-            <P>App store links coming soon</P>
+            <div style={{ flexDirection: 'row' }}>
+              <StoreLink
+                target={'_blank'}
+                href={'https://apps.apple.com/us/app/blockbane/id1499680263'}
+              >
+                <StoreIcon src={AppStoreLogo} />
+              </StoreLink>
+              <StoreLink
+                href={
+                  'https://play.google.com/store/apps/details?id=com.ryderdonahue.blockbane'
+                }
+                target={'_blank'}
+              >
+                <StoreIcon src={GoogleStoreLogo} />
+              </StoreLink>
+            </div>
           </Content>
         </Feature>
       </List>
@@ -51,5 +68,18 @@ const List = styled.ul`
 const AppIcon = styled.img`
   width: 92px;
   height: 92px;
-  margin: 24px;
+  margin-right: 24px;
+  pointer-events: none;
 `;
+const StoreIcon = styled.img`
+  width: 203px;
+  height: 60px;
+  margin: 24px;
+  &:hover {
+    outline: 2px solid ${p => p.theme.primary};
+  }
+
+  border-radius: 2px;
+`;
+
+const StoreLink = styled.a``;
